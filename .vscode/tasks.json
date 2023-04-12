@@ -1,0 +1,17 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "go build",
+            "command": "go",
+            "options": {
+                "cwd": "${workspaceRoot}"
+            },
+            "args": [
+                "build",
+                "-o",
+                "cros-repo",
+            ],
+        },
+    ]
+}
